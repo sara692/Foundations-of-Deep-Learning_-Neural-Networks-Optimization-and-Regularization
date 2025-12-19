@@ -16,7 +16,7 @@ EarlyStopping monitors `val_loss` by default to prevent **overfitting**. Once `v
 **3. What happens if you increase patience (e.g., to 5)?**  
 Increasing patience allows the model to **wait longer before stopping**, giving additional epochs for potential improvements.  
 
-- With `patience=5`, training continued up to **epoch 14**, allowing more chance to improve `val_loss` and validation accuracy.  
+- With `patience=5`, training continued up to **epoch 12**, allowing more chance to improve `val_loss` and validation accuracy.  
 - However, it slightly increases the risk of **overfitting**, since the model may train beyond the optimal point.
 
 **4. Would a different optimizer (e.g., SGD) change the EarlyStopping pattern?**  
